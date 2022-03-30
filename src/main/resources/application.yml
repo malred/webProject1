@@ -1,6 +1,24 @@
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: q2k0f0n3
-    url: jdbc:mysql://localhost:5408/test
+    url: jdbc:mysql://localhost:5408/mybatisdb
+  freemarker:
+    allow-request-override: false
+    cache: false
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html; charset=utf-8
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+    ## 模版文件结尾.ftl
+    suffix: .ftl
+    ## 模版文件目录
+    template-loader-path: classpath:/templates
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
