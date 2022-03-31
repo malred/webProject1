@@ -29,5 +29,6 @@
     </tr>
 </table>
 </form>
+<a href="/user/choice">返回</a>
 </body>
 </html>

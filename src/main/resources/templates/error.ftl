@@ -6,5 +6,6 @@
 </head>
 <body>
 <h1>出错了,请联系工作人员!~</h1>
+<a href="/user/choice">返回</a>
 </body>
 </html>

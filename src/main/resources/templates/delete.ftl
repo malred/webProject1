@@ -9,5 +9,6 @@
 要删除的用户的id<input type="number" name="id">
   <input type="submit">
 </form>
+<a href="/user/choice">返回</a>
 </body>
 </html>

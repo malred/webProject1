@@ -12,5 +12,6 @@
 <a href="/ftl/update">修改用户</a>
 <a href="/ftl/delete">删除用户</a>
 <a href="/ftl/find">查找用户</a>
+<a href="/">返回</a>
 </body>
 </html>
