@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>修改</title>
-    <base href="../templates">
+    <base href="http://localhost:8080/templates">
 </head>
 <body>
 <form action="/user/update" method="post">

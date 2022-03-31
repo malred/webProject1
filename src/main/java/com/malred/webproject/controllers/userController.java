@@ -4,8 +4,11 @@ import com.malred.webproject.dao.*;
 import com.malred.webproject.entity.user;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 import java.util.Map;
@@ -31,17 +34,22 @@ public class userController {
     @RequestMapping("/insert")
     public String insert(user u){
         userDao.saveUser(u);
-        return "choice";
+        return "success";
     }
     @RequestMapping("/update")
     public String update(user u){
         userDao.updateUser(u);
-        return "choice";
+        return "success";
     }
     @RequestMapping("/delete")
-    public String update(Integer id){
+    public String delete(Integer id){
         userDao.deleteById(id);
-        return "choice";
+        return "success";
+    }
+    @PostMapping("/find")
+    @ResponseBody
+    public user find(Integer id){
+        return userDao.findById(id);
     }
     @RequestMapping("/freemarkerIndex")
     public String freemarkerIndex(Map<String,Object> map){

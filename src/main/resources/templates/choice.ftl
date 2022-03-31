@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>$Title$</title>
-    <base href="../templates">
+    <base href="http://localhost:8080/templates">
 </head>
 <body>
 <h2></h2>
 <a href="/user/all">查找当前所有用户</a>
-<a href="insert.ftl">添加用户</a>
-<a href="update.ftl">修改用户</a>
-<#--<a href="/user/delete">删除用户</a>-->
+<a href="/ftl/insert">添加用户</a>
+<a href="/ftl/update">修改用户</a>
+<a href="/ftl/delete">删除用户</a>
+<a href="/ftl/find">查找用户</a>
 </body>
 </html>

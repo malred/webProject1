@@ -27,4 +27,6 @@ public interface userDao {
     public void updateUser(user u);
     @Delete("delete from user where id=#{id}")
     public void deleteById(Integer id);
+    @Select("select * from user where id=#{id}")
+    public user findById(Integer id);
 }
