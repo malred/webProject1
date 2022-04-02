@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author malguy-wang sir
  * @create ---
  */
+//某些操作需要输入数据,用url方法来跳转到表单页面
 @Controller
 @RequestMapping("/ftl")
 public class ftlController {
