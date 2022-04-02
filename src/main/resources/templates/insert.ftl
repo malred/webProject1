@@ -6,8 +6,9 @@
     <base href="http://localhost:8080/templates">
 </head>
 <body>
+<h1 align="center">插入</h1>
 <form action="/user/insert" method="post">
-<table>
+<table align="center">
     <tr>
         <td>用户姓名</td>
         <td><input type="text" name="username" value="张三"></td>

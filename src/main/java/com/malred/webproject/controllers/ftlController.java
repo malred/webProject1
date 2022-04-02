@@ -15,6 +15,7 @@ public class ftlController {
     public String update(){
         return "update";
     }
+
     @RequestMapping("/insert")
     public String insert(){
         return "insert";

@@ -6,6 +6,7 @@
     <base href="http://localhost:8080/templates">
 </head>
 <body>
+<h1 align="center" >修改</h1>
 <form action="/user/update" method="post">
 <table>
     <tr>

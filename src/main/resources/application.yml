@@ -22,3 +22,6 @@ server:
     encoding:
       charset: UTF-8
       force: true
+logging:
+#  指定logback配置文件路径,classpath表示到resources找
+#  config: classpath:log/log4j.xml下
